@@ -12,6 +12,7 @@ class StreamForm extends React.Component {
     }
     return null;
   }
+  
   renderInput = ({ input, label, meta }) => {
     const className=`field ${meta.error && meta.touched ? 'error' : ''}`
     return (
